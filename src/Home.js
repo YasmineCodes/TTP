@@ -19,7 +19,7 @@ const Home = () => {
                 setBlogs(data); 
             })
     }
-    //comment
+    //comment out 
     console.log("at home")
     getBlogs(); 
     return (
