@@ -4,6 +4,7 @@ import Home from "./Home";
 import HomeClass from "./HomeClass";
 import Navbar from "./Navbar";
 import Create from "./Create";
+import Blogdetails from "./Blogdetails";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <div className="main">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route exact path="create" element={<Create />} />
+            <Route path="/blogs/:id" element={<Blogdetails />}/>
           </Routes>
         </div>
       </div>

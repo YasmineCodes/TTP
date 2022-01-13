@@ -20,8 +20,11 @@
 }
 
 .blog-preview {
-  margin: 2em; 
+  margin: 2em;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
-  padding: 1em; 
-
+  padding: 1em;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
