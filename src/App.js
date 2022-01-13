@@ -10,7 +10,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <div className="main-content">
+        <div className="main">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route exact path="create" element={<Create />} />

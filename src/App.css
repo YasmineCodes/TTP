@@ -12,3 +12,16 @@
   padding: 10px;
   border-radius: 15%;
 }
+.main {
+  width: 70%;
+  display: flex;
+  padding: 4em;
+  justify-content: center;
+}
+
+.blog-preview {
+  margin: 2em; 
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 1em; 
+
+}

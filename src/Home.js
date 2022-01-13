@@ -20,7 +20,7 @@ const Home = () => {
             })
     }
 
-    useEffect(() => getBlogs(), [] )
+    useEffect(() => getBlogs(), []); 
 
     return (
         <div className="home">
