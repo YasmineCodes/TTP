@@ -19,9 +19,9 @@ const Home = () => {
                 setBlogs(data); 
             })
     }
-    //comment out 
-    console.log("at home")
-    getBlogs(); 
+
+    useEffect(() => getBlogs(), [] )
+
     return (
         <div className="home">
             {loading && <div>Loading blogs...</div>}
